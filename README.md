@@ -11,7 +11,8 @@ This repository contains the trained models and scripts used for our paper title
     - `keras_metadata.pb`
     - `saved_model.pb`
     - `variables/`
-- scripts/
+  - Due to file size constraints on GitHub, our models can be downloaded using the link: https://drive.google.com/drive/folders/1CpbNOLKkAmGd4gPskwe4fPs8nnvwMeFv?usp=sharing 
+- `scripts/`
   - Contains the scripts used during training. We employed the python scripts using SLURMs. The models were trained using Weights and Biases, please refer to their official website for further information
     - `run_monai.py`: This scripts run our codes without W&B.
     - `run_monai_wandb.py`: This scripts run our codes with W&B.
