@@ -121,7 +121,7 @@ Run the script: python load_model.py
 
 ## License
 
-This repository is licensed under the MIT License.
+This project is licensed under the MIT License — you’re free to use, modify, and distribute with attribution.
 
 ## Citation
 
