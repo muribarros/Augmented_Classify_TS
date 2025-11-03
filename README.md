@@ -1,9 +1,25 @@
-# Enhancing Tourette's Syndrome Classification via Cortico-Striatal-Thalamic-Cortical Circuit Segmentation and Convolutional Neural Networks
+# 🧠 Enhancing Tourette's Syndrome Classification via CSTC Circuit Segmentation and CNNs  
 
-## Purpose
-This repository contains the trained models and scripts used for our paper titled "Enhancing Tourette's Syndrome Classification via Cortico-Striatal-Thalamic-Cortical Circuit Segmentation and Convolutional Neural Networks". Our work focuses on utilizing convolutional neural networks (CNNs) to classify Tourette's Syndrome using various brain segmentation techniques.
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16+-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Paper Status](https://img.shields.io/badge/Paper-Under_Review-blue)](#)
+[![Made with Love](https://img.shields.io/badge/Made%20with❤️-by%20Murilo%20C.%20de%20Barros-red)](#)
 
-## Directory Structure
+**Murilo C. de Barros · Kaue T. N. Duarte · Chia-Jui Hsu · Wang-Tso Lee · Marco A. G. de Carvalho**
+
+---
+
+## 🎯 Overview  
+
+This repository contains the **trained models** and **scripts** used in our paper:  
+> **“Enhancing Tourette's Syndrome Classification via Cortico-Striatal-Thalamic-Cortical Circuit Segmentation and Convolutional Neural Networks”**
+
+Our work focuses on leveraging **deep learning** (CNNs) to classify **Tourette’s Syndrome**, exploring the **CSTC circuit** through multiple segmentation approaches — *Whole Brain*, *SLANT*, and *DKT*.
+
+---
+
+## 🗂️ Directory Structure  
 - `models/`
   - Contains the trained models for three different architectures: VGG16, VGG19, and ResNet50.
   - Each architecture has three different styles: `WholeBrain`, `Slant`, and `DKT`.
@@ -19,15 +35,39 @@ This repository contains the trained models and scripts used for our paper title
     - `gpu_batch_2D.sh`: Main script responsible for running the python codes.
 ## Models
 The models provided in this repository are named as follows:
-- `WholeBrain_VGG16`
-- `WholeBrain_VGG19`
-- `WholeBrain_ResNet50`
-- `Slant_VGG16`
-- `Slant_VGG19`
-- `Slant_ResNet50`
-- `DKT_VGG16`
-- `DKT_VGG19`
-- `DKT_ResNet50`
+├── models/
+│ ├── WholeBrain_VGG16/
+│ ├── WholeBrain_VGG19/
+│ ├── WholeBrain_ResNet50/
+│ ├── Slant_VGG16/
+│ ├── Slant_VGG19/
+│ ├── Slant_ResNet50/
+│ ├── DKT_VGG16/
+│ ├── DKT_VGG19/
+│ └── DKT_ResNet50/
+│
+└── scripts/
+├── run_monai.py
+├── run_monai_wandb.py
+└── gpu_batch_2D.sh
+
+### 🔗 Model Access  
+Due to GitHub storage limits, trained models can be downloaded here:  
+👉 [**Google Drive Folder**](https://drive.google.com/drive/folders/1CpbNOLKkAmGd4gPskwe4fPs8nnvwMeFv?usp=sharing)
+
+---
+
+## 🧩 Model Architectures  
+
+Each model combines one of three CNN architectures with one of three segmentation strategies:
+
+| Architecture | Whole Brain | SLANT | DKT |
+|---------------|-------------|--------|------|
+| **VGG16**     | ✅ | ✅ | ✅ |
+| **VGG19**     | ✅ | ✅ | ✅ |
+| **ResNet50**  | ✅ | ✅ | ✅ |
+
+**Naming convention:**
 
 ## Usage
 To use these models for transfer learning or inference, please follow the instructions below.
