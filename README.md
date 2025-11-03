@@ -33,10 +33,11 @@ Our work focuses on leveraging **deep learning** (CNNs) to classify **Tourette�
     - `run_monai.py`: This scripts run our codes without W&B.
     - `run_monai_wandb.py`: This scripts run our codes with W&B.
     - `gpu_batch_2D.sh`: Main script responsible for running the python codes.
+
 ## Models
 The models provided in this repository are named as follows:
-├── models/
-│ ├── WholeBrain_VGG16/
+"├── models/"
+"│ ├── WholeBrain_VGG16/"
 │ ├── WholeBrain_VGG19/
 │ ├── WholeBrain_ResNet50/
 │ ├── Slant_VGG16/
