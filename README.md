@@ -36,22 +36,24 @@ Our work focuses on leveraging **deep learning** (CNNs) to classify **Tourette�
 
 ## Models
 The models provided in this repository are named as follows:
-"├── models/"
-"│ ├── WholeBrain_VGG16/"
-│ ├── WholeBrain_VGG19/
-│ ├── WholeBrain_ResNet50/
-│ ├── Slant_VGG16/
-│ ├── Slant_VGG19/
-│ ├── Slant_ResNet50/
-│ ├── DKT_VGG16/
-│ ├── DKT_VGG19/
-│ └── DKT_ResNet50/
+```bash
+.
+├── models/
+│   ├── WholeBrain_VGG16/
+│   ├── WholeBrain_VGG19/
+│   ├── WholeBrain_ResNet50/
+│   ├── Slant_VGG16/
+│   ├── Slant_VGG19/
+│   ├── Slant_ResNet50/
+│   ├── DKT_VGG16/
+│   ├── DKT_VGG19/
+│   └── DKT_ResNet50/
 │
 └── scripts/
-├── run_monai.py
-├── run_monai_wandb.py
-└── gpu_batch_2D.sh
-
+    ├── run_monai.py
+    ├── run_monai_wandb.py
+    └── gpu_batch_2D.sh
+```
 ### 🔗 Model Access  
 Due to GitHub storage limits, trained models can be downloaded here:  
 👉 [**Google Drive Folder**](https://drive.google.com/drive/folders/1CpbNOLKkAmGd4gPskwe4fPs8nnvwMeFv?usp=sharing)
