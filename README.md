@@ -1,4 +1,4 @@
-# 🧠 Enhancing Tourette's Syndrome Classification via CSTC Circuit Segmentation and CNNs  
+# Enhancing Tourette's Syndrome Classification via CSTC Circuit Segmentation and CNNs  
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16+-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 Overview  
+## Overview  
 
 This repository contains the **trained models** and **scripts** used in our paper:  
 > **“Enhancing Tourette's Syndrome Classification via Cortico-Striatal-Thalamic-Cortical Circuit Segmentation and Convolutional Neural Networks”**
@@ -19,7 +19,7 @@ Our work focuses on leveraging **deep learning** (CNNs) to classify **Tourette�
 
 ---
 
-## 🗂️ Directory Structure  
+## Directory Structure  
 - `models/`
   - Contains the trained models for three different architectures: VGG16, VGG19, and ResNet50.
   - Each architecture has three different styles: `WholeBrain`, `Slant`, and `DKT`.
