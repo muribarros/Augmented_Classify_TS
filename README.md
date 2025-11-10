@@ -1,4 +1,4 @@
-# Enhancing Tourette's Syndrome Classification via CSTC Circuit Segmentation and CNNs  
+# Classification of Tourette's Syndrome Using Cortico-Striatal-Thalamic-Cortical Circuit Segmentation and Convolutional Neural Networks: A Machine Learning Study
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16+-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
